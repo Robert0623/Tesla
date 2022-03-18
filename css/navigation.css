@@ -52,6 +52,7 @@
 }
 
 .blur_overlay {
+  /* 기본은 display: none; */
   display: none;
   position: fixed;
   top: 0;
@@ -65,5 +66,6 @@
 }
 
 .blur_overlay.is--active {
+  /* 네비게이션에서 is--active클래스 있으면 보이게함 */
   display: block;
 }
